@@ -45,11 +45,11 @@ Note that the start and end locations should be the same city.
 
 Execute the remaining cells in the book. Cell 7 will contain a map with a travel itinerary layer.
 
-[WeatherPy_travel_map.png](https://github.com/InRegards2Pluto/World_Weather_Analysis/blob/96de29e80229fff7b18d54dbc95d8954283eb093/Vacation_Itinerary/WeatherPy_travel_map.png)
+![WeatherPy_travel_map.png](https://github.com/InRegards2Pluto/World_Weather_Analysis/blob/96de29e80229fff7b18d54dbc95d8954283eb093/Vacation_Itinerary/WeatherPy_travel_map.png)
 
 Cell 10 will contain a map with markers that, when clicked on, will create a pop up window with location and weather details.
 
-[WeatherPy_travel_map_marker.png](https://github.com/InRegards2Pluto/World_Weather_Analysis/blob/96de29e80229fff7b18d54dbc95d8954283eb093/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
+![WeatherPy_travel_map_marker.png](https://github.com/InRegards2Pluto/World_Weather_Analysis/blob/96de29e80229fff7b18d54dbc95d8954283eb093/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
 ## Resources
 - Data Source: 
