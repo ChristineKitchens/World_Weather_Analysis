@@ -7,13 +7,13 @@ Download the repository and open the [Weather_Database.ipynb](https://github.com
 
 Run the entire notebook to obtain a csv of potential vacation locations and associated weather conditions. The original script creates a list based on a randomly selected list of 2000 lat/long coordinates, but if a larger or smaller sample is required, the following code in the second cell can be modified:
 
-'''
+```
 # Create a set of random latitude and longitude combinations.
 lats = np.random.uniform(low=-90.000, high=90.000, size=2000)
 lngs = np.random.uniform(low=-180.000, high=180.000, size=2000)
 lat_lngs = zip(lats, lngs)
 lat_lngs
-'''
+```
 
 Modify the "size =" argument to increase or decrease the number of potential cities to pick from.
 
@@ -29,7 +29,7 @@ If the user want to plan a potential itinerary, open the [Vacation_Itinerary.ipy
 
 Looking at the interative map, select four potential locations. In cell 5, update the location names with the desired travel points. 
 
-'''
+```
 # From the map above pick 4 cities and create a vacation itinerary route to travel between the four cities. 
 # 5. Create DataFrames for each city by filtering the 'vacation_df' using the loc method. 
 # Hint: The starting and ending city should be the same city.
@@ -39,7 +39,7 @@ vacation_end = vacation_df.loc[vacation_df["City"] == "Barwadih",]
 vacation_stop1 = vacation_df.loc[vacation_df["City"] == "Balaghat",]
 vacation_stop2 = vacation_df.loc[vacation_df["City"] == "Jhansi",]
 vacation_stop3 = vacation_df.loc[vacation_df["City"] == "Bagru",] 
-'''
+```
 
 Note that the start and end locations should be the same city.
 
